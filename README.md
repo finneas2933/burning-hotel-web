@@ -1,6 +1,6 @@
 # Website booking phòng khách sạn
 ## 1. Tổng quan
-- Ngôn ngữ lập trình: Html, css, js, PHP
+- Ngôn ngữ lập trình: HTML, CSS, JS, PHP
 - Database: MySQL
 - Loại: Relational Database
 - Đối tượng sử dụng: khách hàng quan tâm tới việc đặt phòng cũng như dịch vụ của khách sạn
