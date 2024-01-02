@@ -1,0 +1,35 @@
+/* banner */
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+#banner {
+    margin-top: 88px;
+    color: white;
+
+    .img {
+        position: relative;
+        height: 450px;
+
+        img {
+            filter: brightness(70%);
+            height: 305px;
+            margin-bottom: 60px;
+        }
+    }
+
+    .box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        .tieude {
+            border: 2px solid white;
+            background-color: white;
+            height: 60px;
+            width: 2px;
+            margin: 0 auto;
+        }
+    }
+}

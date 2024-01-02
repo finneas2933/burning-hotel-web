@@ -1,0 +1,74 @@
+body {
+    background-color: #181A1B;
+}
+
+#infor{
+    background-color: #181A1B;
+    color: white;
+    font-family: Montserrat-SemiBold;
+    /* margin-top: 85px; */
+    padding-top: 100px;
+}
+
+#infor .text-center{
+    background-color: #181A1B;
+    /* margin-top: 85px; */
+}
+
+#infor label{
+    padding-left: 340px;
+    margin-top: 20px;
+}
+#infor input{
+    border: 1px solid #EBB853;
+    background-color: transparent;
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+#infor .confirm {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#infor button {
+    background-color: #937438;
+    border: none;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 125px;
+    font-size: 18px;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #ffcccc;
+}
+
+.error-message {
+    padding-top: 5px;
+    font-family: Montserrat-SemiBoldItalic;
+    color: red;
+}
+#hienthi{
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-family: Montserrat-SemiBold;
+    background-color: bisque;
+    display: none;
+    position: absolute;
+    top:45%;
+}
+.row button {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}

@@ -1,0 +1,63 @@
+/* banner */
+#banner {
+  margin-top: 88px;
+  color: white;
+}
+#banner .img {
+  position: relative;
+  height: 450px;
+}
+#banner .img img {
+  filter: brightness(70%);
+  height: 305px;
+  margin-bottom: 60px;
+}
+#banner .box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#banner .box .tieude {
+  border: 2px solid white;
+  background-color: white;
+  height: 60px;
+  width: 2px;
+  margin: 0 auto;
+}
+
+#content {
+  background-color: #181A1B;
+  color: #fff;
+}
+#content .container {
+  width: 1110px;
+}
+#content .container img {
+  height: 252px;
+}
+#content h3 {
+  text-align: center;
+  font-family: Montserrat-Bold;
+}
+#content p {
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#chef .cheflist {
+  width: 350px;
+  height: 467px;
+}
+#chef a {
+  text-decoration: none;
+  color: black;
+}
+#chef .col-4.text-center {
+  margin-bottom: 30px;
+}
+#chef span {
+  font-family: "Josefin Sans", Courier, monospace;
+  font-size: 20px;
+}/*# sourceMappingURL=cheflist.module.css.map */

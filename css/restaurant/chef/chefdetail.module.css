@@ -1,0 +1,89 @@
+/* banner */
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+#banner {
+  margin-top: 88px;
+  color: white;
+}
+#banner .img {
+  position: relative;
+  height: 450px;
+}
+#banner .img img {
+  filter: brightness(70%);
+  height: 305px;
+  margin-bottom: 60px;
+}
+#banner .box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#banner .box .tieude {
+  border: 2px solid white;
+  background-color: white;
+  height: 60px;
+  width: 2px;
+  margin: 0 auto;
+}
+
+#chef__profile {
+  display: flex;
+  margin: 2rem 10rem 4rem;
+  justify-content: space-between;
+}
+#chef__profile .chef__image {
+  margin-right: 1rem;
+}
+#chef__profile .chef__image img {
+  width: 400px;
+  height: 467px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#chef__profile .chef__details {
+  flex: 1;
+}
+#chef__profile .chef__details .chef__name {
+  font-size: 40px;
+  font-weight: bold;
+}
+#chef__profile .chef__details .chef__role {
+  font-size: 30px;
+  font-weight: 600;
+  color: #E1B168;
+}
+#chef__profile .chef__details p {
+  font-size: 20px;
+  color: black;
+}
+#chef__profile .chef__details .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#chef__profile .chef__details .items .lab-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+#chef__profile .chef__details .items .sup__detail {
+  flex: 1;
+  margin: 5px;
+}
+#chef__profile .chef__details .items .sup__detail .lab-name {
+  font-weight: 400;
+}
+#chef__profile .chef__details .hero__items {
+  display: flex;
+  justify-content: space-between;
+}
+#chef__profile .chef__details .hero__items .hero__items__left {
+  flex: 1;
+}
+#chef__profile .chef__details .hero__items .hero__items__right {
+  flex: 1;
+}/*# sourceMappingURL=chefdetail.module.css.map */

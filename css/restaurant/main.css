@@ -1,0 +1,101 @@
+#banner {
+    margin-top: 88px;
+    color: white;
+}
+
+#banner .img {
+    position: relative;
+    height: 450px;
+}
+
+#banner .img img {
+    filter: brightness(70%);
+    height: 305px;
+}
+
+#banner .box {
+    position: absolute;
+    width: 400px;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner button {
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+}
+
+#banner .btbook {
+    border: solid #937438;
+    color: #937438;
+}
+
+#banner .btget {
+    border: none;
+    color: white;
+}
+
+/* history */
+#history {
+    background-color: #FFF8F5;
+    color: black;
+}
+
+#history h5 {
+    font-family: Montserrat-SemiBold;
+}
+
+#history .content p {
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    color: #3f3f3f;
+    margin-bottom: 15px;
+}
+
+#history .img {
+    align-items: center;
+}
+
+/* end history */
+
+/* menu */
+#menumonan {
+    background-color: white;
+    color: black;
+}
+
+#menumonan button {
+    border: solid 2px #937438;
+    color: #937438;
+    background-color: transparent;
+    font-family: Montserrat-SemiBold;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+/* end menu */
+
+/* service */
+#service {
+    background-color: white;
+    color: black;
+}
+
+#service .img1 {
+    height: 300px;
+}
+
+#service h3 {
+    font-family: Montserrat-SemiBold;
+}
+
+#service button {
+    border: solid #937438;
+    color: #937438;
+    background-color: transparent;
+    font-family: Montserrat-SemiBold;
+}
+
+/* end service */

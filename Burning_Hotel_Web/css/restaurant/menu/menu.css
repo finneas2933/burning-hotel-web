@@ -1,0 +1,40 @@
+#banner{
+    margin-top: 88px;
+    color: white;
+}
+#banner .img{
+    position: relative;
+}
+#banner .img img{
+    filter: brightness(70%);
+    height: 255px;
+}
+#banner .box {
+    position: absolute;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.butn{
+    border: solid 2px #937438;
+    color: #937438;
+    background-color: transparent;
+    font-family: Montserrat-SemiBold;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.butn a{
+    text-decoration: none;
+    color: #937438;
+}
+
+.butn:hover{
+    background-color: #937438;
+    color: white;
+}
+
+/* #drink .row{
+    margin-bottom: 7.4px;
+} */
